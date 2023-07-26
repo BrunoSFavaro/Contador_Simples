@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
+
 * {
+    font-family: 'REM', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,11 +12,11 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #18181b;
+    background-color: #ebe7b7;
 }
 
 #counter {
-    background-color: #262626;
+    background-color: #001f21;
     padding: 2rem;
     border-radius: 8px;
 }
@@ -32,7 +35,7 @@ body {
 
 button {
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     color: #fff;
     font-weight: 500;
     cursor: pointer;
@@ -46,9 +49,10 @@ button:hover {
 .count-button {
     width: 4rem;
     height: 4rem;
-    font-size: 2rem;
-    background-color: #18181b;
+    font-size: 3rem;
+    background-color: #26ade4;
     margin-right: 1rem;
+    border-radius: 50%;
 }
 
 .count-button:last-child {
@@ -59,7 +63,7 @@ button:hover {
 #reset {
     width: 100%;
     font-size: 1.5rem;
-    background-color: #3730e3;
+    background-color: #26ade4;
     padding: .8rem 0;
     margin-top: 1rem;
 }
