@@ -8,15 +8,25 @@
 }
 
 body {
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #ebe7b7;
+    background-color: #001f21; */
 }
+
+body {
+    display: grid;
+    grid-template-rows: 60% 0%;
+    place-items: center;
+    height: 100vh;
+    background-color: #001f21;
+}
+
 
 #counter {
     background-color: #001f21;
+    align-items: start;
     padding: 2rem;
     border-radius: 8px;
 }
